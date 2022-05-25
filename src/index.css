@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav__button {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+nav .container-fluid .navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+.movie {
+  width: 70%;
+  height: auto;
+  margin: 20px;
+}
+
+.loader {
+  height: 300px;
 }
